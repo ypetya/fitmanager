@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"./mocks"
+	"github.com/ypetya/fitmanager/cmd/mocks"
 )
 
 func TestCommandList_ShouldListExercises(t *testing.T) {

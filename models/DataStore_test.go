@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	mocks "./mocks"
+	"github.com/ypetya/fitmanager/models/mocks"
 )
 
 var fmde mocks.FakeMetadataExtractor

@@ -7,10 +7,10 @@ import (
 	"sort"
 	"time"
 
-	"../connectors"
-	directoryConnector "../connectors/directory"
-	"../internal"
-	"../metadataExtractor"
+	"github.com/ypetya/fitmanager/connectors"
+	directoryConnector "github.com/ypetya/fitmanager/connectors/directory"
+	"github.com/ypetya/fitmanager/internal"
+	"github.com/ypetya/fitmanager/metadataExtractor"
 )
 
 var effectiveIO = internal.EffectiveIO{}

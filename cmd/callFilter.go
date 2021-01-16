@@ -1,6 +1,8 @@
 package main
 
-import m "../models"
+import (
+	m "github.com/ypetya/fitmanager/models"
+)
 
 func callFilter(ds m.IDataStore, params []string) []m.Exercise {
 	f := ds.NewRemoteFilter()

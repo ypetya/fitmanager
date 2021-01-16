@@ -1,6 +1,6 @@
 package garminconnect
 
-import "../../internal"
+import "github.com/ypetya/fitmanager/internal"
 
 func NewGarminConnectConnector() *GarminConnectConnector {
 	c := newClient()

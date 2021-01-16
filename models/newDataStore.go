@@ -1,9 +1,9 @@
 package models
 
 import (
-	"../connectors"
-	"../internal"
-	"../metadataExtractor"
+	"github.com/ypetya/fitmanager/connectors"
+	"github.com/ypetya/fitmanager/internal"
+	"github.com/ypetya/fitmanager/metadataExtractor"
 )
 
 const VERSION = 8

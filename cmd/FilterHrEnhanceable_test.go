@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	m "../models"
+	m "github.com/ypetya/fitmanager/models"
 )
 
 var filterTestData []m.Exercise

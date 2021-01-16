@@ -5,8 +5,8 @@ import (
 
 	connect "github.com/abrander/garmin-connect"
 
-	"../../internal"
-	"./mocks"
+	"github.com/ypetya/fitmanager/connectors/garminconnect/mocks"
+	"github.com/ypetya/fitmanager/internal"
 )
 
 func TestFetchActivitiesCallsClient(t *testing.T) {

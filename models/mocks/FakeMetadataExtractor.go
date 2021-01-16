@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	m "../../metadataExtractor"
+	m "github.com/ypetya/fitmanager/metadataExtractor"
 )
 
 var FakeMetadataExtractorCalls []string

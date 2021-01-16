@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"./mocks"
+	"github.com/ypetya/fitmanager/cmd/mocks"
 )
 
 func Test_callFilter_Should_translate_args_to_filter(t *testing.T) {

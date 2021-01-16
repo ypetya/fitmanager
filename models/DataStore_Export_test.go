@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"../connectors"
-	"./mocks"
+	"github.com/ypetya/fitmanager/connectors"
+	"github.com/ypetya/fitmanager/models/mocks"
 )
 
 type FakeFilter struct{}

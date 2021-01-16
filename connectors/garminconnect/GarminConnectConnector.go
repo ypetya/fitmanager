@@ -1,7 +1,7 @@
 package garminconnect
 
 import (
-	"../../internal"
+	"github.com/ypetya/fitmanager/internal"
 )
 
 // implements IConnector(IImportCapable, IExportCapable)

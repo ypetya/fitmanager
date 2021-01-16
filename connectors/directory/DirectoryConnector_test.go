@@ -3,7 +3,7 @@ package directory
 import (
 	"testing"
 
-	"../../internal"
+	"github.com/ypetya/fitmanager/internal"
 )
 
 func Test_DirectoryConnector_FetchDiff_ShouldReturn_FitFiles_Not_Imported(t *testing.T) {

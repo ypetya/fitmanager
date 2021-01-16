@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"./mocks"
+	"github.com/ypetya/fitmanager/cmd/mocks"
 )
 
 func TestCommandImportWithoutRemoteNameShouldImportFromGarmin(t *testing.T) {

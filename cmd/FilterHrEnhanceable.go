@@ -1,7 +1,7 @@
 package main
 
 import (
-	m "../models"
+	m "github.com/ypetya/fitmanager/models"
 )
 
 // Implements IFilter

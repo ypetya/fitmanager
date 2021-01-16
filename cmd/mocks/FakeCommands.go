@@ -1,6 +1,6 @@
 package mocks
 
-import "../../console"
+import "github.com/ypetya/fitmanager/console"
 
 type FakeCommands struct {
 	Calls    []string

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"../connectors"
-	dirConnector "../connectors/directory"
-	garminConnector "../connectors/garminconnect"
-	console "../console"
-	m "../models"
+	"github.com/ypetya/fitmanager/connectors"
+	dirConnector "github.com/ypetya/fitmanager/connectors/directory"
+	garminConnector "github.com/ypetya/fitmanager/connectors/garminconnect"
+	console "github.com/ypetya/fitmanager/console"
+	m "github.com/ypetya/fitmanager/models"
 
 	"github.com/ypetya/fitfixer"
 )

@@ -1,6 +1,6 @@
 package directory
 
-import "../../internal"
+import "github.com/ypetya/fitmanager/internal"
 
 func NewDirectoryConnector() *DirectoryConnector {
 

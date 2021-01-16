@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"../../internal"
+	"github.com/ypetya/fitmanager/internal"
 )
 
 type DirectoryConnector struct {

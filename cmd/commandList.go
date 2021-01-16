@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	m "../models"
+	m "github.com/ypetya/fitmanager/models"
 )
 
 func commandList(params []string, s interface{}) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	m "../models"
+	m "github.com/ypetya/fitmanager/models"
 )
 
 func commandAddRemote(params []string, s interface{}) {

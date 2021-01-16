@@ -3,8 +3,8 @@ package models
 import (
 	"testing"
 
-	"../connectors"
-	mocks "./mocks"
+	"github.com/ypetya/fitmanager/connectors"
+	mocks "github.com/ypetya/fitmanager/models/mocks"
 )
 
 func Test_DataStore_Import_Should_return_error_when_no_suchRemote(t *testing.T) {

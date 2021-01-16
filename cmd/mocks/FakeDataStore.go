@@ -1,6 +1,6 @@
 package mocks
 
-import "../../models"
+import "github.com/ypetya/fitmanager/models"
 
 type FakeDataStore struct {
 	Calls        []string

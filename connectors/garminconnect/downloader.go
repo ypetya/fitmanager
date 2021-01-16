@@ -5,7 +5,7 @@ import (
 
 	connect "github.com/abrander/garmin-connect"
 
-	"../../internal"
+	"github.com/ypetya/fitmanager/internal"
 )
 
 func downloadActivity(

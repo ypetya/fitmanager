@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"./mocks"
+	"github.com/ypetya/fitmanager/cmd/mocks"
 )
 
 func Test_CommandExport_With_RemoteName_Should_Call_DataStore_Export(t *testing.T) {

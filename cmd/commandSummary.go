@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	m "../models"
+	m "github.com/ypetya/fitmanager/models"
 )
 
 func commandSummary(params []string, s interface{}) {

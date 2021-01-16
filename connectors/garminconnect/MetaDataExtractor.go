@@ -1,7 +1,7 @@
 package garminconnect
 
 import (
-	m "../../metadataExtractor"
+	m "github.com/ypetya/fitmanager/metadataExtractor"
 )
 
 func (GarminConnectConnector) Extract(file string) (Activity string,
