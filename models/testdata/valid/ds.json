@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "meta": {
+        "activity": "Cycling"
+      },
+      "storedOn": [{
+        "name": "",
+        "target": "LocalDB",
+        "file": {
+          "path": "AA4C2525.FIT"
+        }
+      }]
+    }
+  ]
+}

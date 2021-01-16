@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "meta": {
+        "activity": "Cycling",
+        "device": "GARMIN",
+        "samples": 27,
+        "bands": [
+          "cad",
+          "pos"
+        ],
+        "start": 1,
+        "end": 16
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "imagine.FIT"
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "id": "1"
+        }
+      ],
+      "overlaps": [
+        "1.FIT"
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "device": "GARMIN",
+        "samples": 26,
+        "bands": [
+          "hr",
+          "cad"
+        ],
+        "start": 2,
+        "end": 15
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "1.FIT"
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "file": {},
+          "id": "2"
+        }
+      ],
+      "overlaps": [
+        "imagine.FIT"
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "device": "GARMIN",
+        "samples": 26,
+        "bands": [
+          "cad"
+        ],
+        "start": 20,
+        "end": 30
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "11.fit"
+          }
+        }
+      ],
+      "overlaps": [
+        "12.fit",
+        "13.fit"
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "device": "GARMIN",
+        "samples": 26,
+        "bands": [
+          "cad"
+        ],
+        "start": 22,
+        "end": 32
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "12.fit"
+          }
+        }
+      ],
+      "overlaps": [
+        "11.fit",
+        "13.fit"
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "device": "GARMIN",
+        "samples": 26,
+        "bands": [
+          "cad"
+        ],
+        "start": 25,
+        "end": 28
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "13.fit"
+          }
+        }
+      ],
+      "overlaps": [
+        "11.fit",
+        "12.fit"
+      ]
+    },
+    {
+      "meta": {
+        "device": "GARMIN",
+        "samples": 26
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "333.fit"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "device": "GARMIN",
+        "samples": 29
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "123.fit"
+          }
+        },
+        {
+          "name": "ex",
+          "target": "Folder",
+          "file": {
+            "path": "123.fit"
+          }
+        }
+      ]
+    }
+  ],
+  "remotes": {
+    "ex": {
+      "name": "ex",
+      "target": "Folder",
+      "file": {
+        "path": "~/export"
+      }
+    },
+    "fenix": {
+      "name": "fenix",
+      "target": "Folder",
+      "file": {
+        "path": "/media/garmin"
+      }
+    },
+    "garmin": {
+      "name": "garmin",
+      "target": "GarminConnect",
+      "u": 1605546401
+    },
+    "zwift": {
+      "name": "zwift",
+      "target": "Folder",
+      "file": {
+        "path": "~/Downloads"
+      }
+    }
+  }
+}

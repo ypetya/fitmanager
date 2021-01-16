@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "meta": {
+        "activity": "Cycling",
+        "created": 2
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "AA4C2526.FIT"
+          }
+        }
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "created": 1
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "AA4C2525.FIT"
+          }
+        }
+      ]
+    }
+  ],
+  "remotes": {}
+}

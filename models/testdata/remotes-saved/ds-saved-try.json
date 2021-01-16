@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "meta": {
+        "activity": "Cycling"
+      },
+      "storedOn": [
+        {
+          "name": "local",
+          "target": "LocalDB",
+          "file": {
+            "path": "AA4C2525.FIT"
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "file": {},
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling"
+      },
+      "storedOn": [
+        {
+          "name": "local",
+          "target": "LocalDB",
+          "file": {
+            "path": "AA4C2525.FIT"
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "file": {},
+          "id": "2"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "created": 1
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "3",
+            "lastSeen": 1609612709
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "id": "3",
+          "u": 1609612709
+        }
+      ],
+      "x": 1
+    },
+    {
+      "meta": {
+        "activity": "Cycling",
+        "created": 2
+      },
+      "storedOn": [
+        {
+          "target": "local",
+          "file": {
+            "path": "4",
+            "lastSeen": 1609612709
+          }
+        },
+        {
+          "name": "garmin",
+          "target": "GarminConnect",
+          "id": "4",
+          "u": 1609612709
+        }
+      ],
+      "x": 2
+    }
+  ],
+  "remotes": {
+    "fenix": {
+      "name": "fenix",
+      "target": "Folder",
+      "file": {
+        "path": "/media/garmin"
+      }
+    },
+    "garmin": {
+      "name": "garmin",
+      "target": "GarminConnect",
+      "u": 1609612709
+    },
+    "zwift": {
+      "name": "zwift",
+      "target": "Folder",
+      "file": {
+        "path": "~/Downloads"
+      }
+    }
+  },
+  "ix": 2
+}

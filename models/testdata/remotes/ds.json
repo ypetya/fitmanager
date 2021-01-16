@@ -1,0 +1,60 @@
+{
+  "version": 1,
+    "remotes": {
+      "garmin": {
+        "name": "garmin",
+        "target":"GarminConnect"
+      },
+      "fenix": {
+        "name": "fenix",
+        "target":"Device",
+        "file": {
+          "path": "/media/garmin"
+        }
+      },
+      "zwift": {
+        "name": "zwift",
+        "target":"Folder",
+        "file": {
+          "path": "~/Downloads"
+        }
+      }
+    },
+    "exercises": [
+    {
+      "meta": {
+        "activity": "Cycling"
+      },
+      "storedOn": [{
+        "name": "local",
+        "target": "LocalDB",
+        "file": {
+          "path": "AA4C2525.FIT"
+        }
+      },
+      {
+        "name": "garmin",
+        "target": "GarminConnect",
+        "id": "1"
+      }
+      ]
+    },
+    {
+      "meta": {
+        "activity": "Cycling"
+      },
+      "storedOn": [{
+        "name": "local",
+        "target": "LocalDB",
+        "file": {
+          "path": "AA4C2525.FIT"
+        }},
+      {
+        "name": "garmin",
+        "target": "GarminConnect",
+        "id": "2"
+      }
+      ]
+    }
+  ]
+}
