@@ -25,9 +25,10 @@ func (e EffectiveIO) FileExists(name string) bool {
 func (e EffectiveIO) Copy(src, dst string) {
 	sf, err := os.Open(src)
 	defer sf.Close()
-	bail(err)
-	tf := e.CreateFileForWriting(dst)
-	defer tf.Close()
-	_, err = io.Copy(tf, sf)
-	bail(err)
+	if err == nil {
+		tf := e.CreateFileForWriting(dst)
+		defer tf.Close()
+		_, err = io.Copy(tf, sf)
+		bail(err)
+	}
 }
